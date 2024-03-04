@@ -4,6 +4,7 @@ CARDOpen = 0x8035938c;
 CARDCreate = 0x803598a8;
 CARDRead = 0x80359d20;
 CARDWrite = 0x8035a09c;
+OSReport = 0x80344644;
 MarDirector_SetupObjects = 0x802b76f4;
 PlaySound = 0x800189d4;
 StartBGM = 0x80016978;

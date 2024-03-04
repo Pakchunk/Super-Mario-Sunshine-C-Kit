@@ -1202,7 +1202,7 @@ void StartSoundActorWithInfo(int, Vector*, Vector*, float, int, int, void**, int
 void PSMTXCopy();
 void CLBPolarToCross(Vector* center, Vector* out, float rho, uint16_t theta ,uint16_t phi);
 void Application_Init(void* application);
-
+void OSReport(const char* const _Format, ...);
 void CARDInit(void);
 int CARDMount(int channelNum, void* workArea, long cardCallBack);
 int CARDOpen(int channelNum, char* fileName, CARDFileInfo* fileInfo);
